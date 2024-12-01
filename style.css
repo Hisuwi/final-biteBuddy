@@ -1,0 +1,158 @@
+body{
+    background-color: #f0e8ff;
+}
+
+.header a{
+    color: black;
+    text-decoration: none;
+}
+
+.header h1 a{
+    text-decoration: none;
+}
+
+li{
+    margin-top: -0.5%;
+    position: relative;
+    list-style-type: none;
+    font-size: 25px;
+    border-radius: 25px;
+    background-color: #ffde59;
+}
+
+input[type=text]{
+    background-image: url('search.png');
+    background-position: 5px 10px;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-color: #ffde59;
+    padding: 15px 30px 15px;
+    border-radius: 10px;
+    width: 45%;
+    margin-left: 25%;
+}
+
+.header button{
+    background-repeat: no-repeat;
+    width: 5%;
+    height: 50px;
+    background-color: #ffde59;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+
+.container-slideshow {
+    margin-top: 2%;
+    width: 100%;
+    height: 800px;
+    border-radius: 15px;
+    animation: slide 5s infinite;
+}   
+
+@keyframes slide {
+    0%{
+        background: url(jollibee.png);
+    }
+    25% {
+        background: url(jollibee.png);
+    }
+    50% {
+        background: url(mcdo.png);
+    }
+    75% {
+        background: url(kfc.jpeg);
+    }
+    100% {
+        background: url(inasal.png);
+    }
+}
+
+.gallery-container{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.jollibee, .mcdo, .inasal, .kfc{
+    background-color: #ffde59;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.jollibee a, .mcdo a, .inasal a, .kfc a{
+    color: black;
+    text-decoration: none;
+}
+
+.desc{
+    text-align: center;
+}
+
+#jollibee-order, #mcdo-order, #inasal-order, #kfc-order{
+    background-color: #f0e8ff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+.youtube-map{
+    margin-top: 3%;
+    border-radius: 15px;
+    background-color: rgb(256,220,92);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.footer {
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(256, 220, 92);
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 3%;
+}
+
+.footer-left{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footer-left a{
+    text-decoration: none;
+    color: black;
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter {
+  background-color: #f0e8ff;
+  text-decoration: none;
+  color: black;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.footer-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-center p a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+}
